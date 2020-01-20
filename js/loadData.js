@@ -57,8 +57,12 @@
             "created_time": "2019-12-16T09:16:37.486129Z",
             "last_modified_time": "2019-12-16T09:16:37.670531Z",
             "date_published": null,
-            "start_time": "2020-02-29",
-            "end_time": "2020-03-21",
+            "start_time": {
+                "fi": "2020-02-29"
+            },
+            "end_time": {
+                "fi": "2020-03-21"
+            },
             "custom_data": null,
             "audience_min_age": null,
             "audience_max_age": null,

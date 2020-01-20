@@ -1,5 +1,12 @@
-window.dataLayer.array.forEach(function(event){
+window.dataLayer.forEach(function(event){
     var newEvent = document.createElement('li');
-    newEvent.innerHTML = '<div class="info"><h2 class="title">' event.short_description.fi '</h2></div>';
+    newEvent.innerHTML = '<div class="info"><h2 class="title">' 
+            + event.short_description.fi 
+            + '</h2><p class="desc">' 
+            + event.description.fi
+            + '</p><p class="dates">' 
+            + event.start_time.fi + event.end_time.fi
+            + '</p></div>';
+
     document.getElementById('event-list').appendChild(newEvent);
 });
